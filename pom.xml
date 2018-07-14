@@ -10,6 +10,8 @@
 
     <modules>
         <module>trainmanagement-web</module>
+        <module>trainmanagement-service</module>
+
     </modules>
 
     <packaging>pom</packaging>

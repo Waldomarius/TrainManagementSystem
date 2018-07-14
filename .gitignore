@@ -2,7 +2,7 @@
 
 #Priject ignore
 trainmanagement-web/*.iml
-
+trainmanagement-service/*.iml
 
 target/**
 target/
