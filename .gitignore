@@ -3,6 +3,7 @@
 #Priject ignore
 trainmanagement-web/*.iml
 trainmanagement-service/*.iml
+trainmanagement-dao/*.iml
 
 target/**
 target/

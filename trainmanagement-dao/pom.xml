@@ -2,7 +2,6 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <parent>
         <artifactId>trainmanagementsystem</artifactId>
         <groupId>com.trainmanagement</groupId>
@@ -10,20 +9,17 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>trainmanagement-service</artifactId>
+    <artifactId>trainmanagement-dao</artifactId>
     <packaging>jar</packaging>
 
+
+
     <dependencies>
-        <dependency>
-            <groupId>com.trainmanagement</groupId>
-            <artifactId>trainmanagement-dao</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
     </dependencies>
 
     <build>
-        <finalName>trainmanagement-service</finalName>
+        <finalName>trainmanagement-dao</finalName>
     </build>
-
 
 </project>

@@ -11,6 +11,7 @@
     <modules>
         <module>trainmanagement-web</module>
         <module>trainmanagement-service</module>
+        <module>trainmanagement-dao</module>
 
     </modules>
 
