@@ -1,5 +1,10 @@
 # Maven related directories and files
 
+#Priject ignore
+trainmanagement-web/*.iml
+
+
+target/**
 target/
 pom.xml.tag
 pom.xml.releaseBackup

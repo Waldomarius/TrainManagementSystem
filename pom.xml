@@ -5,13 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.trainmanagement</groupId>
-    <artifactId>TrainManagementSystem</artifactId>
+    <artifactId>trainmanagementsystem</artifactId>
     <version>${project.version}</version>
 
+    <modules>
+        <module>trainmanagement-web</module>
+    </modules>
+
+    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.version>1.0-SNAPSHOT</project.version>
+        <servlet.version>3.1.0</servlet.version>
+        <jstl.version>1.2</jstl.version>
+        <spring.version>4.3.14.RELEASE</spring.version>
     </properties>
 
 
