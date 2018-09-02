@@ -1,0 +1,35 @@
+	body{
+		/* width: 1200px; */
+		/* margin: 0; */
+		/* padding: 0; */
+		background-size: cover; 
+		background-image: url(../images/background.jpg);
+		background-attachment: fixed;
+		color: #000000;
+		/* background-color: #F0E68C; */
+		/* height:1500px; */
+		/* background-repeat:no-repeat;
+		background-attachment:fixed;
+		text-align: center; */
+		
+	}
+	
+	.input-form{
+
+	padding-top:10%;
+		margin:  0 auto;
+		text-align: center;
+
+	}
+		
+	.btn-sign{
+		
+		/* height:auto; */
+		width:200px;
+		margin:2px;
+	}
+	.login-header{
+		font-size: 16pt;
+	}
+	
+	

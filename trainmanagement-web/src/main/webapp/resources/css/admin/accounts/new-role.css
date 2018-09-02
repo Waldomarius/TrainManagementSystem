@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url(../../../images/background.jpg);
+    background-attachment: fixed;
+    color: #000000;
+}
+
+.toplabel{
+    padding-top:2%;
+    margin:  0 auto;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.table-edit{
+    width: 60%;
+    margin: auto;
+}
+
+.correction{
+    padding-top:2%;
+    margin:  0 auto;
+}
+
+.btn-width{
+
+    height:auto;
+    width:150px;
+}
+
+.btn-width-create{
+    height:auto;
+    width:250px;
+    font-size: 12pt;
+}
+
+.input-width{
+    width:250px;
+}
+
+
+
+

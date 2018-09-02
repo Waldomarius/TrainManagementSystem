@@ -1,0 +1,7 @@
+<Context>
+    <ResourceLink
+            name="jdbc/connection/app"
+            global="jdbc/connection/trainmanagement"
+            type="javax.sql.DataSource"
+    />
+</Context>

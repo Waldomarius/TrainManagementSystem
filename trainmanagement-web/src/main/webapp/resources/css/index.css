@@ -1,0 +1,68 @@
+	body{
+		/* width: 1200px; */
+		margin: 0;
+		padding: 0;
+		background-size: cover; 
+		background-image: url(../images/background.jpg);
+		background-attachment: fixed;
+		color: #000000;
+		/* background-color: #F0E68C; */
+		/* height:1500px; */
+		/* background-repeat:no-repeat;
+		background-attachment:fixed;
+		text-align: center; */
+		
+			
+	}
+	
+	.header{
+		padding:10px;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.header-botton{
+		padding:10px;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+		
+	.content{
+		
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		size: 18px;
+	}
+	
+	
+	.btn-top{
+		
+		height:auto;
+		width:180px;
+		margin:2px;
+	}
+	
+
+	.btn-sign{
+		
+		height:auto;
+		width:100px;
+		margin:2px;
+	}
+	
+	.navbar{
+		margin:2;
+		text-align: center;
+	}
+	
+/* 	.slider{
+		
+		display:block;
+		margin:auto;
+		
+	} */
+
+	

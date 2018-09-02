@@ -1,0 +1,35 @@
+	body{
+		background-size: cover; 
+		background-image: url(../images/background.jpg);
+		background-attachment: fixed;
+		color: #000000;
+	}
+	
+.input-form{
+
+	padding-top:10%;
+		margin:  0 auto;
+		text-align: center;
+
+	}
+		
+.btn-sign{
+		
+		/* height:auto; */
+		width:100%;
+		/* margin:2px; */
+	}
+	
+.login-header{
+		font-size: 16pt;
+	}
+	
+	.info{
+		margin:  auto;
+		padding: 0px;
+		padding-top:12px;
+	}
+	
+	
+	
+	

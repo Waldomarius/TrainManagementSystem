@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url(../../../images/background.jpg);
+    background-attachment: fixed;
+    color: #000000;
+}
+
+.toplabel{
+    padding-top:2%;
+    margin:  0 auto;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.table-label{
+    margin:  0 auto;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.form-text{
+    font-size: 12pt;
+}
+
+.table-edit{
+    width: 60%;
+    margin: auto;
+}
+
+.correction{
+    padding-top:2%;
+    margin:  0 auto;
+}
+
+.btn-width{
+
+    height:auto;
+    width:150px;
+}
+
+.btn-width-freight{
+
+    height:auto;
+    width:100px;
+}
+
+.btn-width-create{
+    height:auto;
+    width:250px;
+    font-size: 12pt;
+}
+
+.input-width{
+    width:150px;
+}
+
+.input-width-new{
+     width:250px;
+ }
+
+.input-width-freight{
+    width:100px;
+}
+
+.input-width-id{
+    width:50px;
+}
+.td-width1{
+    width: 400px;
+    margin: auto;
+    padding-top: 20px;
+}
+.td-width2{
+    width: 300px;
+    margin: auto;
+}
+

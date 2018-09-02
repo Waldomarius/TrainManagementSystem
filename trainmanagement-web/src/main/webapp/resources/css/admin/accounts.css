@@ -1,0 +1,27 @@
+body{
+
+    background-size: cover;
+    background-image: url(../../images/background.jpg);
+    background-attachment: fixed;
+    color: #000000;
+
+}
+
+.btn-width{
+    width: 150px;
+    margin:2px;
+}
+
+.toplabel{
+    padding-top:2%;
+    margin:  0 auto;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.topselect{
+    padding-top:2%;
+    margin:  0 auto;
+    text-align: center;
+}
+

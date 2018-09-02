@@ -23,14 +23,14 @@
         <servlet.version>3.1.0</servlet.version>
         <jstl.version>1.2</jstl.version>
         <spring.version>4.3.14.RELEASE</spring.version>
+        <spring-security.version>4.2.3.RELEASE</spring-security.version>
+        <hibernate.version>4.3.11.Final</hibernate.version>
+        <jpa.version>1.10.2.RELEASE</jpa.version>
+        <lombok.version>1.16.6</lombok.version>
+        <mysql.connector.version>5.1.38</mysql.connector.version>
+        <json.version>20160810</json.version>
+        <jackson.version>2.8.9</jackson.version>
     </properties>
-
-
-
-    <dependencies>
-
-    </dependencies>
-
 
     <build>
         <plugins>

@@ -1,0 +1,89 @@
+	body{
+
+		background-size: cover; 
+		background-image: url(../../images/background.jpg);
+		background-attachment: fixed;
+		color: #000000;
+
+	}
+	
+	.textinfo{
+		margin:  0 auto;
+		text-align: center;
+		font-size: 12pt;
+	}
+		
+	.btn-block{
+		width: 200px;
+		margin:2px;
+	}
+	
+	.selectsity{
+		padding: 5px;
+ 
+		border: solid 1px #517B97;
+		 
+		outline: 0;
+		 
+		background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #CAD9E3), to(#FFFFFF));
+		 
+		background: -moz-linear-gradient(top, #FFFFFF, #CAD9E3 1px, #FFFFFF 25px);
+		 
+		box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+		 
+		-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+		 
+		-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+		font-size: 12pt;
+		width: 250px;
+		 
+	}
+	
+		.selectnumber{
+		padding: 5px;
+ 
+		border: solid 1px #517B97;
+		 
+		outline: 0;
+		 
+		background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #CAD9E3), to(#FFFFFF));
+		 
+		background: -moz-linear-gradient(top, #FFFFFF, #CAD9E3 1px, #FFFFFF 25px);
+		 
+		box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+		 
+		-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+		 
+		-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+		font-size: 12pt;
+		width: 100px;
+		 
+	}
+	
+	
+	.topselect{
+		padding-top:2%;
+		margin:  0 auto;
+		text-align: center;
+	}
+	
+	.back{
+		width: 150px;
+	}
+	.logout{
+		width: 150px;
+	}
+
+	.widthbutton{
+		width: 110%;
+	}
+	
+	.thstyle{
+		width:30%
+	}
+	
+	.qqq{
+		
+		width: 100px;
+	}
+	
