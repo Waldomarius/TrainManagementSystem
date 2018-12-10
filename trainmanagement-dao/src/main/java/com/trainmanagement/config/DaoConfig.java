@@ -34,10 +34,13 @@ public class DaoConfig {
     @Resource
     private Environment env;
 
+    @Resource
+    private DataSource dataSource;
+
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() throws NamingException {
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
-        entityManagerFactoryBean.setDataSource(dataSource());
+        entityManagerFactoryBean.setDataSource(dataSource);
         entityManagerFactoryBean.setPersistenceProviderClass(HibernatePersistenceProvider.class);
         entityManagerFactoryBean.setPackagesToScan(env.getRequiredProperty(PROPERTY_NAME_ENTITYMANAGER_PACKAGES_TO_SCAN));
         entityManagerFactoryBean.setJpaProperties(getHibernateProperties());
@@ -54,13 +57,13 @@ public class DaoConfig {
         return properties;
     }
 
-    @Bean(destroyMethod = "")
-    public DataSource dataSource() throws NamingException {
-        Context ctx = new InitialContext();
-        DataSource  dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/connection/app");
-
-        return dataSource;
-    }
+//    @Bean(destroyMethod = "")
+//    public DataSource dataSource() throws NamingException {
+//        Context ctx = new InitialContext();
+//        DataSource  dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/connection/app");
+//
+//        return dataSource;
+//    }
 
     @Bean
     public JpaTransactionManager transactionManager() throws NamingException {
